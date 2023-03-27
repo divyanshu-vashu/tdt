@@ -1,0 +1,11 @@
+
+<article class="post-item">
+  <h2><%= post.name%></h2>
+  <!-- <h1><%= post._id %></h1> -->
+  <p class="post-item-author">By <%= post.author.name  %></p>
+  <p>Rs.<%= post.price   %> </p>
+  <p>Deliver within <%= post.time   %>Hrs</p>
+  <div class="post-actions">
+    <a class="btn" href="/posts/<%= post._id %>">View Post</a>
+  </div>
+</article>
